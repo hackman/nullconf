@@ -54,7 +54,7 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 98vh;
+  height: 64vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
