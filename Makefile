@@ -6,9 +6,6 @@ destination = yuhu.biz:nullconf.ca/
 # Do not print the executed commands
 .SILENT:
 
-pull:
-	git pull
-
 all: pull $(pages)
 
 index.html: templates/index.tmpl $(parts)
@@ -26,3 +23,7 @@ clean:
 
 push: all
 	rsync --exclude=tmp --exclude='Makefile*' --exclude='*~' --exclude=templates -aHv * $(destination)
+
+pull:
+	git pull
+
