@@ -441,10 +441,11 @@ a:focus {
 .about_section .img-box {
   margin-left: 10%;
   margin-right: 5%;
+  text-align: center;
 }
 
 .about_section .img-box img {
-  width: 100%;
+  width: 360px;
 }
 
 .about_section .detail-box {
