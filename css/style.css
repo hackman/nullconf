@@ -338,6 +338,7 @@ a:focus {
 }
 
 .service_section {
+  background-color: #001;
   text-align: center;
 }
 
@@ -468,6 +469,10 @@ a:focus {
   background-color: #6944db;
 }
 
+.portfolio_section {
+	background-color: #001;
+}
+
 .portfolio_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -569,6 +574,9 @@ a:focus {
 }
 
 /* contact section */
+.contact_section {
+	background-color: #001;
+}
 .contact_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -578,6 +586,7 @@ a:focus {
 .contact_section .contact-form {
   padding: 25px;
   border-radius: 20px;
+  border-top: 30px;
 }
 
 .contact_section .contact-form input {
