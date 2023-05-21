@@ -6,7 +6,10 @@ destination = yuhu.biz:nullconf.ca/
 # Do not print the executed commands
 .SILENT:
 
-all: $(pages)
+pull:
+	git pull
+
+all: pull $(pages)
 
 index.html: templates/index.tmpl $(parts)
 	sed 's/__$@__/active/;s/__[a-z]\+__//;s/ __SUB__//' templates/header.tmpl > $@
