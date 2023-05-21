@@ -111,11 +111,6 @@ a:focus {
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
-  color: initial;
-}
-
 .btn,
 .btn:focus {
   outline: none !important;
@@ -256,6 +251,40 @@ a:focus {
   width: 100%;
 }
 */
+.speaker_section .img-box {
+  text-align: center;
+}
+.speaker_section .speaker {
+  text-align: center;
+}
+.speaker_section .speaker img {
+  width: 80px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
+  float: left;
+  margin-right: 20px;
+}
+.speaker_section .speaker_name {
+  font-weight: bold;
+  text-align: left;
+}
+.speaker_section .speaker_info {
+  max-width: 55%;
+  justify-content: space-between;
+  text-align: justify;
+}
+.speaker_section .col-md-5 {
+	max-width: 60%;
+	flex: 0 0 60%;
+}
+.speaker_section .col-md-6 {
+	max-width: 40%;
+	flex: 0 0 40%;
+}
+.speaker_section .img-box img {
+  height:340px;
+}
+
 .slider_section .img-box img {
   height:340px;
 }
