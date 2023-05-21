@@ -457,7 +457,7 @@ a:focus {
   color: #fff;
 }
 
-.about_section .detail-box a {
+.about_section .detail-box .button {
   display: inline-block;
   padding: 10px 35px;
   background-color: #582fd7;
@@ -466,7 +466,7 @@ a:focus {
   margin: 25px 0 45px 0;
 }
 
-.about_section .detail-box a:hover {
+.about_section .detail-box .button:hover {
   background-color: #6944db;
 }
 
