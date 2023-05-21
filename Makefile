@@ -1,6 +1,6 @@
 parts = templates/header.tmpl templates/footer.tmpl
 work = templates/workshops.tmpl $(parts)
-pages = index.html about.html workshops.html contact.html topics.html
+pages = index.html about.html workshops.html contact.html program.html
 destination = yuhu.biz:nullconf.ca/
 
 # Do not print the executed commands
